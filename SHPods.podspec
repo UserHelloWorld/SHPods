@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SHPods"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "A short description of SHPods."
 
   # This description is used to generate tags and improve search results.
@@ -136,11 +136,11 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 
-  s.subspec 'Serialization' do |ss|
+  s.subspec 'Category' do |ss|
     ss.source_files = 'SHPods/Category.{h,m}'
    end
 
-  s.subspec 'Security' do |ss|
+  s.subspec 'Base' do |ss|
     ss.source_files = 'SHPods/Base.{h,m}'
     end
 end
