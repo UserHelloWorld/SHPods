@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SHPods"
-  s.version      = "0.1.8"
+  s.version      = "0.1.9"
   s.summary      = "A short description of SHPods."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SHPods/Common/Base.{h,m}"
+  s.source_files  = "SHPods/Common/Base/*"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.{h,m}"
