@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SHPods"
-  s.version      = "0.2.2"
+  s.version      = "0.2.3"
   s.summary      = "A short description of SHPods."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SHPods/*"
+  s.source_files  = "SHPods/**/*"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.{h,m}"
@@ -136,11 +136,11 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 
-#  s.subspec 'Category' do |ss|
- #   ss.source_files = 'SHPods/Category.{h,m}'
-  # end
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'SHPods/Category.{h,m}'
+   end
 
- # s.subspec 'Base' do |ss|
-  #  ss.source_files = 'SHPods/Base.{h,m}'
-   # end
+  s.subspec 'Base' do |ss|
+    ss.source_files = 'SHPods/Base.{h,m}'
+    end
 end
